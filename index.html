@@ -42,8 +42,8 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link textoNavBar" href="#portfolio">Portfolio</a>                        
-                        <a class="nav-link textoNavBar" href="#sobre">Sobre</a>                                                
+                        <a class="nav-link textoNavBar" href="#sobre">Sobre</a> 
+                        <a class="nav-link textoNavBar" href="#portfolio">Portfolio</a>
                         <a class="nav-link textoNavBar" href="#contato">Contato</a>
                     </div>
                 </div>
@@ -51,7 +51,8 @@
         </nav>
     </header>
 
-    <main class="principal text-white text-center imagemFundo" style="background-color: #1ABC9C">
+    <!-- Main -->
+    <main class="principal text-white text-center imagemFundo" style="background-image:url(./assets/img/background.jpg)">
         <div class="container d-flex align-items-center flex-column">
             <!-- Imagem do primeiro Avatar-->
             <img class="primeiro-avatar mb-5" src="assets/img/img_daniel/avatar-daniel.png" alt="Avatar do Daniel" />
@@ -62,9 +63,30 @@
                 <div class="divider-custom-icon iconeDivisor"><i class="fas fa-code"></i></div>
             </div>
             <!-- Abaixo do nome do DEV-->
-            <p class="subtitulo font-weight-light mb-0">Angular 2+ - TypeScript - JavaScript - SASS - HTML5- CSS3 </p>
+            <p class="subtitulo font-weight-light mb-0">Angular 2+ | TypeScript | JavaScript | SASS | HTML5 - CSS3 </p>
         </div>
     </main>
+
+    <!-- Sobre -->    
+    <section class="border-top page-section text-white mb-0 imagemFundoSobre " id="sobre" style="background-color: #026814">
+        <div class="container">
+            <!-- Título Sobre-->
+            <h2 class="titulo-sobre page-section-heading text-center text-uppercase text-white">Sobre</h2>
+            <!-- Ícone divisor-->
+            <div class="divider-custom divider-light text-center">
+                <div class="divider-custom-icon iconeDivisorSobre"><i class="fas fa-code"></i></div>
+            </div>
+            <!-- Conteudo da seção Sobre -->
+            <div class="row">
+                <div class="descricao col-lg-4 ms-auto descricaoSobre">
+                    <p class="lead"><strong>Daniel Jordão</strong> é Desenvolvedor Front-end (HTML, CSS e JavaScript) com background em
+                        Processos de Melhorias Estratégicas visando a experiência e necessidades dos clientes.</p>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/danielsjordao"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/danielsjordao"><i class="fab fa-fw fa-github"></i></a>
+                </div>               
+            </div>
+        </div>
+    </section>
 
     <!-- Seção Portfolio-->
     <section class="portfolio" id="portfolio">
@@ -190,15 +212,15 @@
             </div>           
     </section>
 
-    <section class="page-section text-white mb-0 imagemFundoSobre" id="sobre" style="background-color: #026814">
-        <div class="container">
+    <!-- <section class="page-section text-white mb-0 imagemFundoSobre" id="sobre" style="background-color: #026814">
+        <div class="container"> -->
             <!-- Título Sobre-->
-            <h2 class="titulo-sobre page-section-heading text-center text-uppercase text-white">Sobre</h2>
+            <!-- <h2 class="titulo-sobre page-section-heading text-center text-uppercase text-white">Sobre</h2> -->
             <!-- Ícone divisor-->
-            <div class="divider-custom divider-light text-center">
+            <!-- <div class="divider-custom divider-light text-center">
                 <div class="divider-custom-icon iconeDivisorSobre"><i class="fas fa-code"></i></div>
             </div>
-            <!-- Conteudo da seção Sobre-->
+            Conteudo da seção Sobre
             <div class="row">
                 <div class="descricao col-lg-4 ms-auto descricaoSobre">
                     <p class="lead"><strong>Daniel Jordão</strong> é Desenvolvedor Front-end (HTML, CSS e JavaScript) com background em
@@ -208,7 +230,7 @@
                 </div>               
             </div>
         </div>
-    </section>    
+    </section>     -->
         <section class="page-section" id="contato" style="background-color: #FFFFFF">
             <div class="container">
                 <!-- Cabeçalho do Contato-->
