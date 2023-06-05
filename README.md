@@ -1,3 +1,4 @@
+# Working in Progress
 # Portfolio de Apresentação de Projetos
 
-Desenvolvedor frontend 
+Portfolio de projetos desenvolvidos para divulgação e apresentação.
