@@ -4,5 +4,6 @@
 Portfolio de projetos desenvolvidos para divulgação e apresentação.
 
 working in Progress
-- modais Ok
+- Modais Ok
 - Atualização do campo Sobre
+- Atualização de contatos
