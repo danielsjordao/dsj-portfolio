@@ -3,4 +3,7 @@
 
 Portfolio de projetos desenvolvidos para divulgação e apresentação.
 
-working in Progress 
+working in Progress
+- Modais Ok
+- Atualização do campo Sobre
+- Atualização de contatos
