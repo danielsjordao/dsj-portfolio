@@ -7,3 +7,4 @@ working in Progress
 - Modais Ok
 - Atualização do campo Sobre
 - Atualização de contatos
+- Insercao de links
